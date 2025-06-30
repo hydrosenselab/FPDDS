@@ -1,0 +1,101 @@
+#Basic Configuration Data for Ostrich Program
+#ProgramType APPSO
+ProgramType ParallelDDS
+#ProgramType ParticleSwarm
+#ProgramType ModelEvaluations
+
+ModelExecutable ./TUSWAMP
+ModelSubdir mod
+ObjectiveFunction GCOP
+
+#RandomSeed 1419614690
+
+PreserveModelOutput no
+
+#PreserveBestModel ./SaveBest.sh
+
+
+#Template File Configuration
+BeginFilePairs
+PARAMS.tpl ; PARAMS
+GENPARM.tpl ; GENPARM.TBL
+SOILPARM.tpl ; SOILPARM.TBL
+EndFilePairs
+
+BeginExtraFiles
+TUSWAMP.flw
+TUSWAMP.frc
+EndExtraFiles
+
+#Real-valued Parameters
+BeginParams
+#parameter	   init.	 low		high	tx_in  tx_ost tx_out  
+HYMAP_runoff_time_delay_multple		random		0.5  1.5	none   none 	none 
+HYMAP_river_roughness_multiple		random		0.25  2.5	none   none 	none 
+REFDK_DATA1		random		1.4E-6		6.5E-6	none   none 	none 
+REFKDT_DATA1		random		0.1		10	none   none 	none 
+slop_DATA1		random		0.08		0.11	none   none 	none 
+MAXSMC1		random		0.3		0.550	none   none 	none 
+SATDK1		random		2E-6		0.0001	none   none 	none
+BB1		random		0.5		3.6 none   none 	none
+REFSMC1		random		0.05		0.15	none   none 	none
+EndParams
+
+
+
+BeginResponseVars
+#name   filename            keyword         line    col     token
+KGE    /home/civil/phd/cez218606/Auto_calibration/Final/Narmada_FPDDS11/FPDDS/obj_function/best.csv;        OST_NULL           1       2       ','
+EndResponseVars
+
+BeginTiedRespVars
+NegKGE_Q 1 KGE wsum -1.00     
+EndTiedRespVars
+
+
+BeginGCOP
+  CostFunction NegKGE_Q
+  PenaltyFunction APM
+EndGCOP
+
+BeginConstraints
+EndConstraints
+
+BeginDDSAlg
+PerturbationValue 0.20
+MaxIterations 1
+# UseInitialParamValues
+EndDDSAlg
+
+BeginParallelDDSAlg
+PerturbationValue 0.20
+MaxIterations 1
+# EnableDebugging
+# UseInitialParamValues
+EndParallelDDSAlg
+
+BeginParticleSwarm
+SwarmSize 100
+NumGenerations 70
+ConstrictionFactor 1.0
+CognitiveParam 2.0
+SocialParam 2.0
+InertiaWeight 1.2
+InertiaReductionRate linear
+InitPopulationMethod random
+ConvergenceVal -1.00
+EndParticleSwarm
+
+BeginAPPSO
+SwarmSize 10
+NumGenerations 10
+ConstrictionFactor 1.0
+CognitiveParam 2.0
+SocialParam 2.0
+InertiaWeight 1.2
+InertiaReductionRate linear
+EndAPPSO
+
+BeginInitParams
+
+EndInitParams

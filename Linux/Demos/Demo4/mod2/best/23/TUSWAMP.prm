@@ -1,0 +1,11 @@
+5.502515E-01  # kb - baseflow recession constant
+8.902842E-02  # inverse of stream network residence time
+1.00  # runoff curve number scale factor
+7.741769E-01 # snowmelt parameter
+3.479652E+00 # initial snowpack
+5.461231E+00 # initial groundwater storage
+2.871326E+01 # initial stream network storage
+2     # number of land uses
+7.424161E+01 45000000 2.132173E+01  # CN2,1 area,1 initial_soil_storage,1
+8.339822E+01 20000000 1.445406E+01  # CN2,2 area,2 initial_soil_storage,2
+

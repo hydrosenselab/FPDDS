@@ -1,0 +1,201 @@
+************************************************************
+            Bluebird / Cardinal version 3.34                
+------------------------------------------------------------
+  An object-oriented numerical engine for simulation of			
+  groundwater flow and reactive contaminant transport with	
+  the analytic element method (AEM).												
+																														
+             Author:  James R. Craig, Ph.D.									
+************************************************************
+
+============================================================
+Parsing Input File...
+============================================================
+reading line 1: ##-disabled-##
+reading line 2: SolveOnly
+reading line 3: ##-disabled-##
+reading line 4: Precision
+reading line 5: MaxIterations
+reading line 6: MinIterations
+reading line 7: Tolerance
+reading line 8: Gridding Window: type 1
+reading line 9: Grid Qx and Qy on
+reading line 10: ##
+reading line 11: Single Layer Aquifer
+reading line 12: Layer Base and Thickness
+reading line 13: Layer Conductivity
+reading line 14: Layer Porosity
+reading line 15: Layer Specific Storage
+reading line 16: Farfield: Reference Point
+reading line 17: Uniform flow (Discharge-specified)
+reading line 18: ##
+reading line 19: Start Elements
+reading line 20: Discharge Well Element
+reading line 23: Discharge Well Element
+reading line 26: Discharge Well Element
+reading line 29: Discharge Well Element
+reading line 32: Discharge Well Element
+reading line 35: Discharge Well Element
+reading line 38: Head-specified Element (River or Lake)
+reading line 42: Head-specified Element (River or Lake)
+reading line 48: Head-specified Element (River or Lake)
+reading line 55: Polygonal Inhomogeneity Element
+reading line 66: Polygonal Inhomogeneity Element
+reading line 75: Polygonal Inhomogeneity Element
+reading line 84: Polygonal Inhomogeneity Element
+reading line 93: Polygonal Inhomogeneity Element
+reading line 102: Leaky Wall Element
+reading line 110: Leaky Wall Element
+reading line 119: Zone Budget Polygon
+reading line 161: Zone Budget Polygon
+reading line 201: ##
+reading line 202: ##-disabled-##
+reading line 203: Tracking Duration
+
+Building Single Layer (16 elements)...
+   ...Layer successfully generated and added to aquifer
+Sifting through 5 Inhomogeneities
+============================================================
+Flow Input File Parsed- Aquifer Created with 1 layer(s)
+============================================================
+
+**Time: 0**
+Solving Aquifer...
+------------------------------------------------------------
+Solving Single Layer (16 element(s))...
+------------------------------------------------------------
+Initializing...
+solving...
+iteration 1  , maxchange: 20.5348     , max. obj: 13.3278       (worst obj: Zone A)   (worst change: Eastern Boundary) ,   avg. obj: 0.834703
+iteration 2  , maxchange: 0.148681    , max. obj: 12.1299       (worst obj: Zone A)   (worst change: Eastern Boundary) ,   avg. obj: 0.80246
+iteration 3  , maxchange: 0.0443641   , max. obj: 4.18093       (worst obj: Zone A)   (worst change: Bedrock) ,   avg. obj: 0.573539
+iteration 4  , maxchange: 0.0441829   , max. obj: 3.53566       (worst obj: Zone D)   (worst change: Bedrock) ,   avg. obj: 0.37577
+iteration 5  , maxchange: 0.0249885   , max. obj: 1.17933       (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.106915
+iteration 6  , maxchange: 0.0215002   , max. obj: 0.586428      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0447647
+iteration 7  , maxchange: 0.0168726   , max. obj: 0.408269      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0494358
+iteration 8  , maxchange: 0.0133255   , max. obj: 0.433282      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0533023
+iteration 9  , maxchange: 0.0107646   , max. obj: 0.430628      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0472978
+iteration 10 , maxchange: 0.00881424  , max. obj: 0.391805      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.039395
+iteration 11 , maxchange: 0.00765437  , max. obj: 0.344651      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0335309
+iteration 12 , maxchange: 0.00654012  , max. obj: 0.301167      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0291843
+iteration 13 , maxchange: 0.00552686  , max. obj: 0.261698      (worst obj: Zone D)   (worst change: Southern Boundary) ,   avg. obj: 0.0253661
+iteration 14 , maxchange: 0.00470443  , max. obj: 0.225067      (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.0218166
+iteration 15 , maxchange: 0.00504159  , max. obj: 0.191513      (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.018637
+iteration 16 , maxchange: 0.00522069  , max. obj: 0.161691      (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.0159145
+iteration 17 , maxchange: 0.00527497  , max. obj: 0.135808      (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.0136656
+iteration 18 , maxchange: 0.00523214  , max. obj: 0.113636      (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.0118044
+iteration 19 , maxchange: 0.00511492  , max. obj: 0.0947865     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.0102524
+iteration 20 , maxchange: 0.0049419   , max. obj: 0.0788592     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00896709
+iteration 21 , maxchange: 0.00472819  , max. obj: 0.0654761     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00791123
+iteration 22 , maxchange: 0.0044861   , max. obj: 0.0542826     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00701246
+iteration 23 , maxchange: 0.00422556  , max. obj: 0.0449526     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00623533
+iteration 24 , maxchange: 0.00395453  , max. obj: 0.0371952     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00561335
+iteration 25 , maxchange: 0.00367938  , max. obj: 0.0307577     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00524916
+iteration 26 , maxchange: 0.00340512  , max. obj: 0.0254232     (worst obj: Zone D)   (worst change: Gravel Pond) ,   avg. obj: 0.00503489
+iteration 27 , maxchange: 0.00313567  , max. obj: 0.0283781     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00500472
+iteration 28 , maxchange: 0.00287403  , max. obj: 0.0362288     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00522882
+iteration 29 , maxchange: 0.00262246  , max. obj: 0.0441856     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00550608
+iteration 30 , maxchange: 0.00238258  , max. obj: 0.0533319     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00589605
+iteration 31 , maxchange: 0.00215554  , max. obj: 0.0642994     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00643155
+iteration 32 , maxchange: 0.00194205  , max. obj: 0.0650177     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00635267
+iteration 33 , maxchange: 0.00174248  , max. obj: 0.0489261     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00524479
+iteration 34 , maxchange: 0.00155695  , max. obj: 0.040141      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00461143
+iteration 35 , maxchange: 0.00138533  , max. obj: 0.0341869     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00416974
+iteration 36 , maxchange: 0.00122735  , max. obj: 0.0299132     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00384522
+iteration 37 , maxchange: 0.00108258  , max. obj: 0.0266561     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00359426
+iteration 38 , maxchange: 0.000950519 , max. obj: 0.0241874     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00340085
+iteration 39 , maxchange: 0.000830559 , max. obj: 0.0222524     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0032476
+iteration 40 , maxchange: 0.000722057 , max. obj: 0.0230654     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00327175
+iteration 41 , maxchange: 0.000624334 , max. obj: 0.0255493     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00340496
+iteration 42 , maxchange: 0.000536693 , max. obj: 0.0284459     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0035678
+iteration 43 , maxchange: 0.00045843  , max. obj: 0.0318079     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00376288
+iteration 44 , maxchange: 0.000388848 , max. obj: 0.0356857     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00399263
+iteration 45 , maxchange: 0.000327263 , max. obj: 0.0401217     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00425966
+iteration 46 , maxchange: 0.00027301  , max. obj: 0.0449344     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.004554
+iteration 47 , maxchange: 0.000225451 , max. obj: 0.0468534     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00466876
+iteration 48 , maxchange: 0.000194668 , max. obj: 0.0486483     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00477679
+iteration 49 , maxchange: 0.000187257 , max. obj: 0.0502886     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00487599
+iteration 50 , maxchange: 0.000179722 , max. obj: 0.0517508     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00496474
+iteration 51 , maxchange: 0.000171497 , max. obj: 0.0530203     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00504253
+iteration 52 , maxchange: 0.000162777 , max. obj: 0.0529091     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503618
+iteration 53 , maxchange: 0.000153735 , max. obj: 0.0518381     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00496976
+iteration 54 , maxchange: 0.000144518 , max. obj: 0.0510627     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00492172
+iteration 55 , maxchange: 0.000135255 , max. obj: 0.0505246     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00488836
+iteration 56 , maxchange: 0.000126052 , max. obj: 0.0501786     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0048669
+iteration 57 , maxchange: 0.000117002 , max. obj: 0.0499888     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00485512
+iteration 58 , maxchange: 0.000108177 , max. obj: 0.0499258     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00485121
+iteration 59 , maxchange: 9.96383e-05 , max. obj: 0.0499658     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00485368
+iteration 60 , maxchange: 9.14334e-05 , max. obj: 0.0500889     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0048613
+iteration 61 , maxchange: 8.35981e-05 , max. obj: 0.050278      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00487301
+iteration 62 , maxchange: 7.61588e-05 , max. obj: 0.0505191     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00488793
+iteration 63 , maxchange: 6.91329e-05 , max. obj: 0.0507997     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00490529
+iteration 64 , maxchange: 6.25305e-05 , max. obj: 0.0511094     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00492446
+iteration 65 , maxchange: 5.63552e-05 , max. obj: 0.0514391     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00494487
+iteration 66 , maxchange: 5.06052e-05 , max. obj: 0.0517811     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00496603
+iteration 67 , maxchange: 4.52742e-05 , max. obj: 0.0521287     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00498753
+iteration 68 , maxchange: 4.03521e-05 , max. obj: 0.0524762     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00500904
+iteration 69 , maxchange: 3.5826e-05  , max. obj: 0.052819      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503024
+iteration 70 , maxchange: 3.16803e-05 , max. obj: 0.053153      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00505091
+iteration 71 , maxchange: 2.78979e-05 , max. obj: 0.0534751     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00507084
+iteration 72 , maxchange: 2.44602e-05 , max. obj: 0.0537827     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00508986
+iteration 73 , maxchange: 2.13478e-05 , max. obj: 0.054065      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00510732
+iteration 74 , maxchange: 1.85409e-05 , max. obj: 0.0538969     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00509663
+iteration 75 , maxchange: 1.70476e-05 , max. obj: 0.0537432     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00508686
+iteration 76 , maxchange: 1.58801e-05 , max. obj: 0.0536038     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00507799
+iteration 77 , maxchange: 1.47264e-05 , max. obj: 0.0534783     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00507
+iteration 78 , maxchange: 1.35977e-05 , max. obj: 0.053366      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00506285
+iteration 79 , maxchange: 1.25029e-05 , max. obj: 0.0532664     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0050565
+iteration 80 , maxchange: 1.14492e-05 , max. obj: 0.0531786     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00505091
+iteration 81 , maxchange: 1.04419e-05 , max. obj: 0.0531021     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00504602
+iteration 82 , maxchange: 9.4851e-06  , max. obj: 0.0530358     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00504179
+iteration 83 , maxchange: 8.58151e-06 , max. obj: 0.0529791     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503816
+iteration 84 , maxchange: 7.7328e-06  , max. obj: 0.0529311     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503509
+iteration 85 , maxchange: 6.93969e-06 , max. obj: 0.0528911     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503253
+iteration 86 , maxchange: 6.20212e-06 , max. obj: 0.0528583     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503042
+iteration 87 , maxchange: 5.51938e-06 , max. obj: 0.0528319     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502872
+iteration 88 , maxchange: 4.89024e-06 , max. obj: 0.0528114     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0050274
+iteration 89 , maxchange: 4.31301e-06 , max. obj: 0.0527959     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0050264
+iteration 90 , maxchange: 3.78569e-06 , max. obj: 0.052785      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502569
+iteration 91 , maxchange: 3.306e-06   , max. obj: 0.0527781     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502522
+iteration 92 , maxchange: 2.87148e-06 , max. obj: 0.0527745     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502498
+iteration 93 , maxchange: 2.47954e-06 , max. obj: 0.0527739     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502493
+iteration 94 , maxchange: 2.12753e-06 , max. obj: 0.0527758     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502503
+iteration 95 , maxchange: 2.13593e-06 , max. obj: 0.0527797     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502527
+iteration 96 , maxchange: 2.14528e-06 , max. obj: 0.0527854     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502562
+iteration 97 , maxchange: 2.13158e-06 , max. obj: 0.0527924     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502605
+iteration 98 , maxchange: 2.09841e-06 , max. obj: 0.0528006     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502656
+iteration 99 , maxchange: 2.04903e-06 , max. obj: 0.0528095     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502712
+iteration 100, maxchange: 1.9864e-06  , max. obj: 0.0528191     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502772
+iteration 101, maxchange: 1.9132e-06  , max. obj: 0.0528291     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502834
+iteration 102, maxchange: 1.83181e-06 , max. obj: 0.0528393     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502898
+iteration 103, maxchange: 1.74435e-06 , max. obj: 0.0528495     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00502962
+iteration 104, maxchange: 1.65267e-06 , max. obj: 0.0528597     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503027
+iteration 105, maxchange: 1.55842e-06 , max. obj: 0.0528698     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0050309
+iteration 106, maxchange: 1.46298e-06 , max. obj: 0.0528796     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503152
+iteration 107, maxchange: 1.36757e-06 , max. obj: 0.0528891     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503212
+iteration 108, maxchange: 1.27321e-06 , max. obj: 0.0528983     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.0050327
+iteration 109, maxchange: 1.18073e-06 , max. obj: 0.052907      (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503325
+iteration 110, maxchange: 1.09083e-06 , max. obj: 0.0529153     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503377
+iteration 111, maxchange: 1.00407e-06 , max. obj: 0.0529231     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503426
+iteration 112, maxchange: 9.2089e-07  , max. obj: 0.0529304     (worst obj: Gravel Pond)   (worst change: Gravel Pond) ,   avg. obj: 0.00503473
+...success!- solution has converged.
+ ...0.105 seconds elapsed (Solve). 
+
+=====================================================================================
+------------ Output Time #1 - t=0 --------------------------
+=====================================================================================
+Writing solution file(s)...
+      ...Solution file written
+Writing output files...
+  Calculating/writing 80 output location(s)...
+      ...Output files written
+
+General Solution Information: 
+------------------------------------------------------------
+Total Elements:        18
+Net Aquifer discharge: -22722
+
+
+************************************************************
+Exiting Gracefully: Successful completion :)
+************************************************************

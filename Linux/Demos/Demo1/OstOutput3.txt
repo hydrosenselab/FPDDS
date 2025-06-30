@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------
+ OSTRICH version 17.12.19 (Built Dec 19 2017 @ 12:13:52)
+
+ A computer program for model-independent calibration and optimization.
+
+ Author             L. Shawn Matott
+ Copyright (C) 2007 L. Shawn Matott
+
+ This program is free software; you can redistribute 
+ it and/or modify it under the terms of the GNU  
+ General Public License as published by the Free 
+ Software Foundation; either version 2 of the 
+ License, or(at your option) any later version. 
+
+ This program is distributed in the hope that it will 
+ be useful, but WITHOUT ANY WARRANTY; without even 
+ the implied warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE. See the GNU General Public 
+ License for more details. 
+
+ You should have received a copy of the GNU General 
+ Public License along with this program; if not, 
+ write to the Free Software Foundation, Inc., 59 
+ Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+--------------------------------------------------------------------------
+
+Ostrich Setup
+Model                  : ./split > OstExeOut.txt 2>&1
+Algorithm              : Levenberg-Marquardt
+Objective Function     : WSSE
+Number of Parameters   : 3
+Number of Tied Params  : 0
+Number of Observations : 25
+Seed for Random Nums.  : 1669185723
+
+Ostrich Run Record
+iter  obj. function  K1            K2            Kback         lambda
+0     8.230901E+04  5.000000E+01  5.000000E+01  5.000000E+01  1.000000E+01
+
+Optimal Parameter Set
+Objective Function : 8.230901E+04
+K1                 : 1.563663E+01
+K2                 : 5.024358E+00
+Kback              : 1.000007E+00
+
+Algorithm Metrics
+Algorithm         : Levenberg-Marquardt
+Max Iterations    : 20
+Actual Iterations : 7
+Convergence Val   : 0.000100
+LPRCV             : 0.300000
+LRRCV             : 0.010000
+Max Lambda Trials : 10
+Move Limit        : 0.100000
+Total Alg Evals   : 1
+Total Evals       : 2
+Upper Violations  : 0
+Lower Violations  : 0
+Move Limit Viols  : 0
+LPRCV : Lambda-Phi Ratio Convergence Value
+LRRCV : Lambda Relative Reduction Convergence Value
+Total Evals             : 2
+Telescoping Strategy    : none
+
+Finite Difference Metrics
+Difference Type    : Forward
+Increment Type    : Range-Relative
+Finite Difference Increments
+K1           : 0.001000
+K2           : 0.001000
+Kback        : 0.001000
+Finite Difference Mimumum Increment : 1.000000E-10
+Jacobian Evals     : 0
+Optimal Step Evals : 0
+Statistics Evals   : 1

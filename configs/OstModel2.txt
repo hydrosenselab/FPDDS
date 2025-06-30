@@ -1,0 +1,2 @@
+Run   obj.function   HYMAP_runoff_time_delay_multple  HYMAP_river_roughness_multiple  REFDK_DATA1   REFKDT_DATA1  slop_DATA1    MAXSMC1       SATDK1        BB1           REFSMC1       
+1     -5.067500E-01  1.488534E+00  2.777292E-01  2.132067E-06  7.583117E+00  1.054091E-01  4.670669E-01  2.550893E-05  2.808127E+00  9.166434E-02  

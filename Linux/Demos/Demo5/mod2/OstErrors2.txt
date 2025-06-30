@@ -1,0 +1,10 @@
+Ostrich Error Report for Processor 2 
+A total of 8 errors and/or warnings were reported
+FILE I/O ERROR             : ExtractValue() : Unexpected end of input 
+                           : Ostrich failed to process the following response variable: 
+                           : Name    : Fxy 
+                           : File    : Simple.out 
+                           : Line    : 0 
+                           : Column  : 3 
+                           : Keyword : OST_NULL 
+                           : Token   : ' ' 

@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------
+ OSTRICH version 17.12.19 (Built Dec 19 2017 @ 12:13:52)
+
+ A computer program for model-independent calibration and optimization.
+
+ Author             L. Shawn Matott
+ Copyright (C) 2007 L. Shawn Matott
+
+ This program is free software; you can redistribute 
+ it and/or modify it under the terms of the GNU  
+ General Public License as published by the Free 
+ Software Foundation; either version 2 of the 
+ License, or(at your option) any later version. 
+
+ This program is distributed in the hope that it will 
+ be useful, but WITHOUT ANY WARRANTY; without even 
+ the implied warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE. See the GNU General Public 
+ License for more details. 
+
+ You should have received a copy of the GNU General 
+ Public License along with this program; if not, 
+ write to the Free Software Foundation, Inc., 59 
+ Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+--------------------------------------------------------------------------
+
+Ostrich Setup
+Model                  : ./BIGFOOT.sh > OstExeOut.txt 2>&1
+Algorithm              : Particle Swarm Optimization
+Objective Function     : GCOP
+Number of Parameters   : 2
+Number of Tied Params  : 0
+Number of Observations : 0
+Seed for Random Nums.  : 1669186775
+Number of Resp. Vars        : 1
+Number of Tied Resp. Vars   : 0
+Number of Constraints       : 0
+Penalty Method              : Additive Penalty Method (APM)
+
+Ostrich Run Record
+gen   best value     <val1>        <val2>        Convergence Value
+0     3.509898E-01  1.388844E+01  1.873203E+01  9.947729E-01
+1     -5.154042E-01  1.575318E+01  1.833252E+01  1.034260E+00
+2     -5.239433E-01  1.605514E+01  1.817911E+01  1.185563E+00
+3     -8.207901E-01  1.570891E+01  1.624397E+01  1.962998E+00
+4     -8.471472E-01  1.359230E+01  1.663408E+01  1.828008E+00
+5     -9.009450E-01  1.478027E+01  1.643109E+01  1.573327E+00
+6     -9.009450E-01  1.478027E+01  1.643109E+01  1.815595E+00
+7     -9.009450E-01  1.478027E+01  1.643109E+01  1.838292E+00
+8     -9.009450E-01  1.478027E+01  1.643109E+01  2.244592E+00
+9     -9.009450E-01  1.478027E+01  1.643109E+01  2.049156E+00
+10    -9.009450E-01  1.478027E+01  1.643109E+01  3.685772E+00
+11    -9.009450E-01  1.478027E+01  1.643109E+01  1.912486E+00
+12    -9.009450E-01  1.478027E+01  1.643109E+01  2.100494E+00
+13    -9.009450E-01  1.478027E+01  1.643109E+01  5.835866E+00
+14    -9.009450E-01  1.478027E+01  1.643109E+01  2.757799E+00
+15    -9.009450E-01  1.478027E+01  1.643109E+01  3.351194E+00
+16    -9.009450E-01  1.478027E+01  1.643109E+01  1.106112E+01
+17    -9.061567E-01  1.471572E+01  1.638672E+01  1.386787E+01
+18    -9.294366E-01  1.464403E+01  1.646956E+01  2.274041E+00
+19    -9.294366E-01  1.464403E+01  1.646956E+01  9.023310E+00
+20    -9.330086E-01  1.468525E+01  1.652112E+01  7.156951E+00
+
+Optimal Parameter Set
+Objective Function : -9.330086E-01
+<val1>             : 1.468525E+01
+<val2>             : 1.652112E+01
+
+Summary of Constraints
+
+Algorithm Metrics
+Algorithm               : Particle Swarm Optimization
+Desired Convergence Val : -1.000000E+00
+Actual Convergence Val  : 7.156951E+00
+Max Generations         : 20
+Actual Generations      : 20
+Swarm Size              : 24
+Constriction Factor     : 1.00
+Cognitive Weight        : 2.00
+Social Weight           : 2.00
+Inertia Weight          : 1.20
+Inertia Reduction Rate  : Linear reduction to zero
+Initialization Method   : Latin Hypercube Sampling
+Upper Violations        : 130
+Lower Violations        : 0
+Total Evals             : 508
+Telescoping Strategy    : none
+Algorithm failed to converge on a solution, more generations may be needed

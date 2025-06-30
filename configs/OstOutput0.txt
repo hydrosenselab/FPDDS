@@ -1,0 +1,74 @@
+--------------------------------------------------------------------------
+ OSTRICH version 17.12.19 (Built Dec 19 2017 @ 12:13:52)
+
+ A computer program for model-independent calibration and optimization.
+
+ Author             L. Shawn Matott
+ Copyright (C) 2007 L. Shawn Matott
+
+ This program is free software; you can redistribute 
+ it and/or modify it under the terms of the GNU  
+ General Public License as published by the Free 
+ Software Foundation; either version 2 of the 
+ License, or(at your option) any later version. 
+
+ This program is distributed in the hope that it will 
+ be useful, but WITHOUT ANY WARRANTY; without even 
+ the implied warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE. See the GNU General Public 
+ License for more details. 
+
+ You should have received a copy of the GNU General 
+ Public License along with this program; if not, 
+ write to the Free Software Foundation, Inc., 59 
+ Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+--------------------------------------------------------------------------
+
+Ostrich Setup
+Model                  : ./TUSWAMP > OstExeOut.txt 2>&1
+Algorithm              : Parallel Dynamically Dimensioned Search Algorithm (PDDS)
+Objective Function     : GCOP
+Number of Parameters   : 9
+Number of Tied Params  : 0
+Number of Observations : 0
+Seed for Random Nums.  : 1751278020
+Number of Resp. Vars        : 1
+Number of Tied Resp. Vars   : 1
+Number of Constraints       : 0
+Penalty Method              : Additive Penalty Method (APM)
+
+Ostrich Run Record
+trial    best fitness   HYMAP_runoff_time_delay_multple  HYMAP_river_roughness_multiple  REFDK_DATA1   REFKDT_DATA1  slop_DATA1    MAXSMC1       SATDK1        BB1           REFSMC1        trials remaining
+1     -5.067500E-01  6.753376E-01  2.088886E+00  2.394046E-06  5.407355E+00  1.081942E-01  4.827802E-01  2.185567E-05  2.166901E+00  7.750211E-02  1.000000E+00
+2     -5.067500E-01  1.488534E+00  2.777292E-01  2.132067E-06  7.583117E+00  1.054091E-01  4.670669E-01  2.550893E-05  2.808127E+00  9.166434E-02  0.000000E+00
+
+Optimal Parameter Set
+Objective Function : -5.067500E-01
+HYMAP_runoff_time_delay_multple : 1.488534E+00
+HYMAP_river_roughness_multiple : 2.777292E-01
+REFDK_DATA1        : 2.132067E-06
+REFKDT_DATA1       : 7.583117E+00
+slop_DATA1         : 1.054091E-01
+MAXSMC1            : 4.670669E-01
+SATDK1             : 2.550893E-05
+BB1                : 2.808127E+00
+REFSMC1            : 9.166434E-02
+
+Summary of Constraints
+
+Algorithm Metrics
+Algorithm               : Parallel Dynamically-Dimensioned Search Algorithm (PDDS)
+Desired Convergence Val : N/A
+Actual Convergence Val  : N/A
+Max Generations         : 2
+Actual Generations      : 2
+Peterbation Value       : 0.200000
+Debug Statements        : disabled
+Initial Solution        : Randomly Generated
+Special User Option     : standard
+Alpha Value             : not used
+Beta Value              : not used
+Number of Processors    : 4
+Total Evals             : 1
+Telescoping Strategy    : none
+Algorithm successfully converged on a solution, however more runs may be needed

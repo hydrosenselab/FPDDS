@@ -12,11 +12,11 @@ This repository implements **FPDDS**, a scalable and parallel auto-calibration f
         │   │   └── shapefiles/       # Shapefiles used for spatial masking/clipping
         │   ├── configs/              # Ostrich config files and parameter templates (GENPARM, SOILPARM, etc.)
         │   ├── best_parm/            # Best performing parameter sets selected from calibration
-        │   ├── obj_function/         # CSVs of objective function and other metrics
+        │   ├── obj_function/         # CSVs of the objective function and other metrics
         │   ├── param_save/           # Backup of each iteration's parameter files
         │   ├── Linux/                # Compiled Ostrich binary (e.g., OstrichMPI)
         │   ├── Source/               # Source code or templates for LIS/Ostrich if applicable
-        │   └── ILDAS_Auto_cal.sh     # Bash script to automate model + DA execution
+        │   └── ILDAS_Auto_cal.sh     # Bash script to automate model + Calibration execution
         │
         ├── lis_input_files/          # LIS forcing and initialization NetCDF input files
         │
